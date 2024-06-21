@@ -402,6 +402,12 @@ span {
 	html {
 		font-size: 55%;
 	}
+
+	.content a {
+		transform: scale(1.2);
+	}
+
+	
 	
 	/* === menu section === */
 	.menu .img-container {
