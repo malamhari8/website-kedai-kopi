@@ -403,8 +403,8 @@ span {
 		font-size: 55%;
 	}
 
-	.content a {
-		transform: scale(1.2);
+	.hero .content a {
+		padding: 3rem;
 	}
 
 	
