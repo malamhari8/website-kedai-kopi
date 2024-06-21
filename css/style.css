@@ -298,6 +298,18 @@ span {
 		font-size: 75%;
 	}
 	
+	.hero .content a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width:40%;
+		margin-top: 2rem;
+		height: 4rem;
+		padding: 1.5rem 3rem;
+		font-size: 1.3rem;
+		font-weight: 700;
+	}
+	
 }
 
 /* === Tablet === */
@@ -395,19 +407,38 @@ span {
 		padding-top: 0;
 	}
 	
+	.hero .content a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width:40%;
+		margin-top: 2rem;
+		height: 4rem;
+		padding: 1.5rem 3rem;
+		font-size: 1.3rem;
+		font-weight: 700;
+	}
+	
 }
 
 /* === Mobile Phone === */
 @media (max-width: 450px) {
+	
+	.hero .content a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width:40%;
+		margin-top: 2rem;
+		height: 4rem;
+		padding: 1.5rem 3rem;
+		font-size: 1.3rem;
+		font-weight: 700;
+	}
+	
 	html {
 		font-size: 55%;
 	}
-
-	.hero .content a {
-		padding: 3rem;
-	}
-
-	
 	
 	/* === menu section === */
 	.menu .img-container {
