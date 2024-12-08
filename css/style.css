@@ -120,7 +120,12 @@ span {
 	background-color: var(--primary);
 	padding: 0.8rem 2rem;
 	border-radius: 0.5rem;
-	box-shadow: 0 2px 4px rgba(255, 255, 255, 0.5);
+	box-shadow: -5px 5px 0 #513c28;
+}
+
+.hero .content a:active {
+	transform: translate(-5px,5px);
+	box-shadow: none;
 }
 
 /* == about section == */
